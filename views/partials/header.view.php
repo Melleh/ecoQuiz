@@ -1,12 +1,15 @@
 <header>
    <div class="container-fluid">
       <div class="row">
-         <div class="col-md-6">
+         <!-- <div class="col-md-6">
             <span class="guitar-icon">
                <img src="../images/electric-guitar.svg">
                <div><h1>Guitar(t)ists</h1></div>
             </span>
-         </div>
+         </div> -->
+         
+         
+         
          <div class="col-md-6">
             <div class="user-info">
                <?php if (isset($_SESSION) && isset($_SESSION['user'])): ?>

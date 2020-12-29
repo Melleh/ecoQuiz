@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(48, 48, 48);
+    }
+    
+nav{
+        position: sticky;
+        background-color: teal;
+        padding: 10px 0px;
+
+    }
+    .nav-flex-container{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+        .nav-flex-item-1, .nav-flex-item-3{
+            flex-grow: 1;
+            text-align: center;
+        }
+        .nav-flex-item-2{
+            flex-grow: 2;
+            text-align: center;
+        }
+            .nav-logo{
+                margin: 0;
+                padding: 0;
+                color: white;
+                text-decoration: none;
+                
+                letter-spacing: 4px;
+                font-size: 25px;
+                text-align: center;
+            }
+            .nav-links{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+            }
+                .nav-links li {
+                    list-style: none;
+                }
+                .nav-links a {
+                    color: violet;
+                    text-decoration: none;
+                    letter-spacing: 3px;
+                    font-weight: bold;
+                    font-size: 17px;
+                }
+
+
+            .burger{
+                display: none;
+            }
+
+                .burger div{
+                    width: 25px;
+                    height: 2px;
+                    background-color: white;
+                    margin: 5px;
+                }
+
+
+                
+                #jajaja{
+                    background-color: lawngreen;
+                    
+                }   
+                
+                .joe {
+                    background-color: lawngreen;
+                }
+                
+                
+                
+                #motherfucker {
+                    background-color: coral;
+                    color: cornflowerblue;
+                    height: 40px;
+                    text-align: left;
+                }
+                
+                
+                /* @media screen and (max-width:768px){
+                    body{
+                        display: none;
+                    }
+                } */
+
+
+
+
+/* 
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    /* .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    } */
+/* } */
