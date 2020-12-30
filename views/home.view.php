@@ -1,1 +1,2 @@
-<?php require 'views/partials/header.view.php' ?>
+<?php
+require('partials/newnav.php');
