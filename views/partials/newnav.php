@@ -2,8 +2,8 @@
     <div class="nav-flex-container">
         <div class="nav-flex-item-1">
             <a class="nav-logo" href="/">
-                <img src="" alt="">
-                <span>Navbar</span>
+            <img src="public/images/navbar-brand.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <span>NavBar</span>
             </a>
         </div>
         <div class="nav-flex-item-2">
@@ -21,13 +21,10 @@
         </div>
         <div class="nav-flex-item-3">
             <form class="nav-login">
-                <button class="btn btn-outline-warning" type="button">Login</button>
-                <button class="btn btn-outline-warning" type="button">Register</button>
+                <button id="registerButton">Register</button>
+                <button id="logInButton" >Log In</button>
             </form>
         </div>
-
-        <button id="motherfucker" type="button" class="btn btn-warning">Primary</button>
-
 
         <div class="burger">
             <div class="line1"></div>
@@ -36,5 +33,3 @@
         </div>
     </div>
 </nav>
-
-<button id="motherfucker" type="button" class="btn btn-primary">Primary</button>

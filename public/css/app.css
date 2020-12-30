@@ -25,13 +25,20 @@ nav{
             .nav-logo{
                 margin: 0;
                 padding: 0;
-                color: white;
+                color: black;
                 text-decoration: none;
-                
-                letter-spacing: 4px;
-                font-size: 25px;
+                font-family: 'Montserrat', sans-serif;                
+                font-weight: 500;
+                letter-spacing: 2px;
+                font-size: 30px;
                 text-align: center;
             }
+            .nav-logo:hover{
+                text-decoration: none;
+                color:black;
+                cursor: pointer;
+            }
+
             .nav-links{
                 margin: 0;
                 padding: 0;
@@ -41,15 +48,44 @@ nav{
             }
                 .nav-links li {
                     list-style: none;
+                    display: inline-block;
                 }
-                .nav-links a {
-                    color: violet;
+                .nav-links li a {
+                    color: rgb(243, 243, 211);
                     text-decoration: none;
                     letter-spacing: 3px;
                     font-weight: bold;
                     font-size: 17px;
+                    transition: all 0.3s ease 0s;
+                }
+                .nav-links li a:hover {
+                    color: violet;
                 }
 
+                .nav-login{
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: center;
+                    }
+            #registerButton, #logInButton{
+                padding: 9px 25px;
+                
+                width: 25%;
+                background-color: #fca311;
+                border: 1px solid #f1faee;
+                color: black;
+                ;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 16px;
+                    
+            }
 
             .burger{
                 display: none;
@@ -62,32 +98,17 @@ nav{
                     margin: 5px;
                 }
 
+                
+                
+                
+                
+                
 
-                
-                #jajaja{
-                    background-color: lawngreen;
-                    
-                }   
-                
-                .joe {
-                    background-color: lawngreen;
-                }
-                
-                
-                
-                #motherfucker {
-                    background-color: coral;
-                    color: cornflowerblue;
-                    height: 40px;
-                    text-align: left;
-                }
-                
-                
-                /* @media screen and (max-width:768px){
-                    body{
-                        display: none;
-                    }
-                } */
+        /* @media screen and (max-width:768px){
+            body{
+                display: none;
+            }
+        } */
 
 
 
