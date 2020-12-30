@@ -12,12 +12,17 @@ nav * {
 
     
 .navBar {
+    
         position: sticky;
         background-color: teal;
-        padding: 10px 0px;
-        line-height: 23px;
+        padding: 15px 0px;
+        height: 70px;
    }
-.navBar .nav-links li, .nav-login button{
+
+.navBar li, span{
+    line-height: 23px;
+}
+.navBar li, button{
     font-weight: 500;   
     font-size: 17px;
     
@@ -41,7 +46,7 @@ nav * {
             flex-grow: 1;
             text-align: center;
         }
-        .nav-flex-item-2{
+        .nav-flex-item-2, .nav-flex-item-4{
             flex-grow: 2;
             text-align: center;
         }
@@ -95,7 +100,8 @@ nav * {
 .nav-login button {
     padding: 9px 25px;
     margin: 0px 4px;
-    width: 150px;
+    
+    line-height: 22px;
     
     border-radius: 50px;
     cursor: pointer;
@@ -105,20 +111,30 @@ nav * {
     text-decoration: none;
 }
     .registerButton{
+        width: 135px;
         background-color: rgba(247, 192, 22, 1);
         color: black;
-        border: 1px solid white;
+        border: 1px solid rgba(247, 192, 22, 1);
     }
     .logInButton{
+        width: 110px;
         background-color: inherit;
         color: white;
         border: 1px solid white;
     }
 
-.nav-login button:hover{
-    background-color: rgba(247, 192, 22, 0.8);
-    border-color: white;
-    color: white;
+.registerButton:hover{
+    color: rgb(1, 146, 146);
+    box-shadow: 0px 0px 1px 1px white;
+
+    
+}
+
+.logInButton:hover{
+    background-color: rgb(1, 146, 146);
+    border-color: rgba(247, 192, 22, 1);
+    box-shadow: 0px 0px 4px 2px rgba(247, 192, 22, 1);
+    transform: translateY(-1px);
 }
 
 
@@ -136,7 +152,7 @@ nav * {
                     width: 25px;
                     height: 2px;
                     background-color: white;
-                    margin: 5px;
+                    margin: 3px;
                 }
 
                 
@@ -145,11 +161,25 @@ nav * {
                 
                 
 
-        /* @media screen and (max-width:768px){
-            body{
+        @media screen and (max-width:864px){
+            .nav-flex-item-2{
                 display: none;
             }
-        } */
+            .nav-flex-item-4{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+        } 
+
+        @media screen and (max-width:560px){
+            .nav-flex-item-3{
+                display: none;
+            }
+
+
+        }
 
 
 
@@ -184,11 +214,11 @@ nav * {
         float: none;
         margin: 15px 0;
     }
-    /* since 3.1.0 */
-    /* .navbar-collapse.collapse.in { 
+     /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
         display: block!important;
     }
     .collapsing {
         overflow: hidden!important;
-    } */
-/* } */
+    } 
+} */
