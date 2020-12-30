@@ -1,10 +1,11 @@
-<nav>
+<nav class="navBar">
     <div class="nav-flex-container">
         <div class="nav-flex-item-1">
-            <a class="nav-logo" href="/">
-            <img src="public/images/navbar-brand.png" width="30" height="30" class="d-inline-block align-top" alt="">
-            <span>NavBar</span>
+            <a class=" nav-logo" href="/">
+                <img src="public/images/navbar-brand.png"  alt="">
+                <span>NavBar</span>
             </a>
+
         </div>
         <div class="nav-flex-item-2">
             <ul class="nav-links">
@@ -21,8 +22,8 @@
         </div>
         <div class="nav-flex-item-3">
             <form class="nav-login">
-                <button id="registerButton">Register</button>
-                <button id="logInButton" >Log In</button>
+                <button class="registerButton">Register</button>
+                <button class="logInButton">Log In</button>
             </form>
         </div>
 
