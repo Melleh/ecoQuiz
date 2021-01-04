@@ -2,7 +2,7 @@
         <div class="nav-flex-item-1">
             <a class=" nav-logo" href="/">
                 <img src="public/images/navbar-brand.png"  alt="">
-                <span>NavBar</span>
+                <span>EcoQuiz</span>
             </a>
 
         </div>
