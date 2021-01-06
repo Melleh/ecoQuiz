@@ -1,34 +1,35 @@
 <header>
-   <div class="container-fluid">
-      <div class="row">
-         <!-- <div class="col-md-6">
-            <span class="guitar-icon">
-               <img src="../images/electric-guitar.svg">
-               <div><h1>Guitar(t)ists</h1></div>
-            </span>
-         </div> -->
-         
-         
-         
-         <div class="col-md-6">
-            <div class="user-info">
-               <?php if (isset($_SESSION) && isset($_SESSION['user'])): ?>
-                  <div>
-                     <a href="me"><?= $_SESSION['user']['full_name'] ?></a>
-                     <span>
-                        <a href="logout">
-                            <img src="images/logout.svg" id="logout" alt="logout" title="Log out" />
-                        </a>
-                     </span>
-                  </div>
-               <?php else: ?>
-                  <div>
-                     <a href="/login">Log in</a>&nbsp;&nbsp;|
-                     <a href="/register">Register</a>
-                  </div>
-               <?php endif; ?>
-            </div>
-         </div>
-      </div>
-   </div>
+    <nav class="navBar nav-flex-container navbar-header">
+        <div class="nav-flex-item-1">
+            <a class=" nav-logo" href="/">
+                <img src="public/images/navbar-brand.png" alt="">
+                <span>EcoQuiz</span>
+            </a>
+        </div>
+        <div class="nav-flex-item-2">
+            <ul class="nav-links">
+                <li>
+                    <a href="/quiz">Quiz</a>
+                </li>
+                <li>
+                    <a href="/leaderboard">Leaderboard</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-flex-item-3">
+            <form class="nav-login">
+                <a href="/register"><button class="registerButton">Register</button></a>
+                <a href="/login"><button class="logInButton">Log In</button></a>
+            </form>
+        </div>
+
+        <div class="burger nav-flex-item-4">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 </header>
