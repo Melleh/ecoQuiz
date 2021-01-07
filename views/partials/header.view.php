@@ -20,8 +20,8 @@
         </div>
         <div class="nav-flex-item-3">
             <div class="nav-login">
-                <a href="/register"><button class="registerButton">Register</button></a>
                 <a href="/login"><button class="logInButton">Log In</button></a>
+                <a href="/register"><button class="registerButton">Register</button></a>
             </div>
         </div>
 

@@ -96,30 +96,24 @@ nav * {
                         text-decoration: none;
                         outline: none;
                     }
-                        .registerButton{
-                            width: 135px;
-                            background-color: rgba(247, 192, 22, 1);
+                    .logInButton {
+                            width: 120px;
+                            background-color: #21aa21;
                             color: black;
-                            border: 1px solid rgb(167, 131, 25);
+                            border: 1px solid #21aa21;
                         }
-                        .logInButton{
-                            width: 110px;
-                            background-color: inherit;
+                    .registerButton{
+                            background-color: rgba(1, 146, 146, 0);
                             color: white;
                             border: 1px solid white;
                         }
-                        .registerButton:hover{
-                        border: 1px solid rgb(247, 192, 22, 1);
-                        color: rgb(1, 146, 146);
-                        box-shadow: 0px 0px 1px 1px white;
+                        .logInButton:hover{
+                            box-shadow: 0px 0px 2px 1px #464646;
+                            transform: translateY(-1px);
                         }
 
-                        .logInButton:hover{
-                            background-color: rgb(1, 146, 146);
-                            border-color: rgba(247, 192, 22, 1);
-                            box-shadow: 0px 0px 4px 2px rgba(247, 192, 22, 1);
-                            transform: translateY(-1px);
-                            background-color: ;
+                        .registerButton:hover{
+                            box-shadow: 0px 0px 2px 1px #ffffff;
                         }
 
 
