@@ -3,8 +3,7 @@
         <div class="nav-flex-item-1">
             <a class=" nav-logo" href="/">
                 <img src="public/images/navbar-brand.png" alt="">
-                <span>EcoQuiz</span>
-            </a>
+                EcoQuiz</a>
         </div>
         <div class="nav-flex-item-2">
             <ul class="nav-links">
@@ -20,10 +19,10 @@
             </ul>
         </div>
         <div class="nav-flex-item-3">
-            <form class="nav-login">
+            <div class="nav-login">
                 <a href="/register"><button class="registerButton">Register</button></a>
                 <a href="/login"><button class="logInButton">Log In</button></a>
-            </form>
+            </div>
         </div>
 
         <div class="burger nav-flex-item-4">

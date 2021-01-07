@@ -20,6 +20,7 @@ nav * {
     background-color: teal;
     padding: 15px 0px;
     min-height: 7vh;
+    
    }
 .navBar li, button{
     font-weight: 500;   
@@ -40,7 +41,7 @@ nav * {
             flex-grow: 2;
             text-align: center;
         }
-            .nav-logo span{
+            .navBar .nav-logo {
                 display: inline-block;
                 margin: 0;
                 padding: 0;
@@ -51,7 +52,7 @@ nav * {
                 font-size: 30px;
                 text-align: center;
             }
-            .nav-logo:hover{
+            .navBar .nav-logo:hover{
                 text-decoration: none;
                 color:black;
                 cursor: pointer;
@@ -118,6 +119,7 @@ nav * {
                             border-color: rgba(247, 192, 22, 1);
                             box-shadow: 0px 0px 4px 2px rgba(247, 192, 22, 1);
                             transform: translateY(-1px);
+                            background-color: ;
                         }
 
 
