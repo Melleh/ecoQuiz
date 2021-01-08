@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body{
+    color: white;
     background-color: rgb(48, 48, 48);
+    
 }
 nav * {
     font-family: 'Montserrat', sans-serif; 
@@ -128,6 +130,21 @@ nav * {
                     margin: 3px;
                     transition: all 0.3s ease;
                 }
+
+                .container-fluid, .form-container{
+                    width: 65%;
+                }
+
+                .form-container form{
+                width: 50%;
+            }  
+               .form-container p{
+                width: 100%;
+            }
+            
+
+
+
 
 
 @media screen and (max-width:864px){
