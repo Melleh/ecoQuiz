@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Libraries\View;
 
-class HomeController {
+class ContactController {
 
     public function index()
     {
-        return View::render('home.view');
+        return View::render('contact.view');
     }
 }

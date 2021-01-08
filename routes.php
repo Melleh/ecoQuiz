@@ -15,4 +15,16 @@ $router->get('me', 'App/Controllers/ProfileController.php@index');
 $router->get('users', 'App/Controllers/UserController.php@index');
 $router->post('users/store', 'App/Controllers/UserController.php');
 
+
+$router->get('contact', 'App/Controllers/ContactController.php@index');
+
+
+$router->get('leaderboard', 'App/Controllers/LeaderboardController.php@index');
+
+
+$router->get('quiz', 'App/Controllers/QuizController.php@index');
+
+
+
+
 $router->get('artists', 'App/Controllers/ArtistController.php@index');

@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Libraries\View;
 
-class HomeController {
+class LeaderboardController {
 
     public function index()
     {
-        return View::render('home.view');
+        return View::render('leaderboard.view');
     }
 }
