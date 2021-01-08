@@ -22,7 +22,7 @@
         <nav class="navBar nav-flex-container navbar-header">
             <div class="nav-flex-item-1">
                 <a class=" nav-logo" href="/">
-                    <img src="public/images/navbar-brand.png" alt="">
+                    <img src="public/images/giraffe.png" alt="">
                     EcoQuiz</a>
             </div>
             <div class="nav-flex-item-2">
