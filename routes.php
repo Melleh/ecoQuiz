@@ -1,5 +1,6 @@
 <?php
 
+
 $router->get('', 'App/Controllers/HomeController.php@index');
 $router->get('home', 'App/Controllers/HomeController.php');
 
@@ -24,7 +25,7 @@ $router->get('leaderboard', 'App/Controllers/LeaderboardController.php@index');
 
 $router->get('quiz', 'App/Controllers/QuizController.php@index');
 
-
+$router->get('admin', 'App/Controllers/AdminController.php@index');
 
 
 $router->get('artists', 'App/Controllers/ArtistController.php@index');
