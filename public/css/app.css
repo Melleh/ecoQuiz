@@ -3,32 +3,33 @@
     padding: 0;
     
 }
-    html{
+html {
+    
     height: 100%;
-  }
+}
     body{
-    height: 100%;
+    min-height: 100%;
   } 
 
 
   .bg-container {
     background-image: url('../images/nature-bg.jpg');
-    height: 50%; 
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
 
 .page-container{
     top: 8%;
     position: absolute;
     width: 100%;
+    border: none;
     
 }
 .page{
-    margin: 55px auto 0;
+    margin: 55px auto;
     max-width: 1238px;
 
 }
@@ -37,7 +38,8 @@
     /* border: 1px solid black; */
     box-shadow: 0 0 3px 1px rgba(247, 216, 115, 0.871) ;
     background-color: rgba(255, 255, 221, 0.87);
-    padding: 25px;
+    padding: 50px 50px 25px 50px ;
+    
     
     
     
@@ -56,6 +58,24 @@
     font-size: 17px;
 
 }
+.content-box header.contact-header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: start;
+}
+    .contact-form{
+        background-color: rgba(231, 231, 200, 0.938);
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+
+header.contact-header p {
+    margin-left: 25px ;
+    
+}
 
 .home-page button{
     padding: 9px 25px;
@@ -72,11 +92,6 @@
     background-color: #21aa21;
     color: black;
     border: 1px solid #21aa21;
-}
-
-.contact-page .contact-form{
-    padding: 25px 50px 25px 50px;
-
 }
 
 

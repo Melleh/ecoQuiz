@@ -27,4 +27,23 @@ const navSlide = () => {
     });
 }
 
+
+const scrollView = () => {
+    const body = document.querySelector("body");
+    const page = document.querySelector(".page-container");
+    const nav  = document.querySelector(".navBar");
+    const bodyLength = body.scrollHeight;
+    const pageLength = page.scrollHeight + nav.scrollHeight;
+
+
+    const scroll = Math.max( bodyLength, pageLength);
+    const bg = document.querySelector(".bg-container")
+    
+
+    bg.style.height = scroll + "px" ;
+    
+
+}
+
+scrollView();
 navSlide();

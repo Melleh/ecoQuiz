@@ -1,12 +1,8 @@
+<header class="contact-header">
+    <h1>Contact</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum libero ipsum beatae eaque pariatur? Consectetur quisquam dolore et corrupti impedit quibusdam, error doloremque non aliquid illum facere, natus provident iste.Inventore molestiae ut veniam nam sunt cumque rem laboriosam, ab ipsa voluptatum quod iure minima voluptatem saepe asperiores sequi labore, incidunt accusamus. Distinctio, nemo numquam voluptatem exercitationem quaerat facere qui?</p>
+</header>
 <div class="row contact-page">
-    <header class="col-md-12">
-        <br>
-        <h1>Contact</h1>
-        <hr>
-    </header>
-    <div class="col-md-12 about">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum libero ipsum beatae eaque pariatur? Consectetur quisquam dolore et corrupti impedit quibusdam, error doloremque non aliquid illum facere, natus provident iste.Inventore molestiae ut veniam nam sunt cumque rem laboriosam, ab ipsa voluptatum quod iure minima voluptatem saepe asperiores sequi labore, incidunt accusamus. Distinctio, nemo numquam voluptatem exercitationem quaerat facere qui?</p>
-    </div>
     <form class="col-md-12 g-4 contact-form">
         <div class="row g-4">
             <div class="col-md-6">
