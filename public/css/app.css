@@ -14,6 +14,7 @@
   .bg-container {
     background-image: url('../images/nature-bg.jpg');
     height: 50%; 
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,22 +22,25 @@
   }
 
 .page-container{
-    top: 10%;
+    top: 8%;
     position: absolute;
     width: 100%;
     
 }
 .page{
     margin: 55px auto 0;
-    width: 1238px;
+    max-width: 1238px;
 
 }
 
 .content-box{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 3px 1px rgba(247, 216, 115, 0.871) ;
     background-color: rgba(255, 255, 221, 0.87);
     padding: 25px;
-
+    
+    
+    
 
 }
 
@@ -208,9 +212,6 @@ nav * {
 
 
 @media screen and (max-width:864px){
-    body{
-        overflow-x: hidden;
-    }
     .nav-links{
         margin-top: 15px;
         position: absolute;
@@ -222,7 +223,7 @@ nav * {
         align-items: center;
         width: 40%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;  
+        
     }
     .nav-links li{
         opacity: 0;
@@ -236,6 +237,7 @@ nav * {
 
 .nav-active{
     transform: translateX(0%);
+    transition: transform 0.5s ease-in;  
 }
 
 @keyframes navLinkFade{

@@ -1,10 +1,9 @@
-<div class="login-overlay">
-    <div class="center-box register-form">
+
         <div class="mb-3">
             <span class="guitar-icon">
                 <img src="../images/electric-guitar.svg">
                 <div>
-                    <h3>Guitar(t)ists - Register</h3>
+                    <h3>Register</h3>
                 </div>
             </span>
         </div>
@@ -42,7 +41,6 @@
                 <input type="button" class="btn btn-dark" id="register-cancel" value="Cancel">
             </div>
         </form>
-    </div>
-</div>
+
 
 <script src="../js/partials/register.js"></script>
