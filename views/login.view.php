@@ -1,5 +1,5 @@
-<div class="login-overlay">
-    <div class="center-box login-form">
+
+    
         <div class="mb-3">
             <span class="guitar-icon">
                 <img src="../images/electric-guitar.svg">
@@ -31,7 +31,7 @@
                 </div>
             </div>
         </form>
-    </div>
-</div>
+    
+
 
 <script src="js/partials/login.js"></script>

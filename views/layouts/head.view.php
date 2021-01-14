@@ -52,6 +52,7 @@
         </div>
     </nav>
 
-    <div class="bg-container">
+    <div class="bg-container bg-scroller"></div>
         <div class="page-container">
             <div class="page">
+                <div class="content-box">
