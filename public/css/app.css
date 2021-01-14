@@ -220,6 +220,83 @@ nav * {
                     margin: 3px;
                     transition: all 0.3s ease;
                 }
+
+
+
+
+                #quiz img {
+                    height: 200px;
+                    width: 200px;
+                    object-fit: cover;
+                }
+                /* HIDE RADIO */
+                .img-checkbox [type=radio] { 
+                    position: absolute;
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                }
+                
+                /* IMAGE STYLES */
+                .img-checkbox [type=radio] + img {
+                    cursor: pointer;
+                }
+                
+                /* CHECKED STYLES */
+                .img-checkbox [type=radio]:checked + img {
+                    outline: 4px solid #f00;
+                }
+
+
+
+
+
+
+                #quiz input {
+                    vertical-align: middle;
+                }
+                
+                #quiz ol {
+                   margin: 0 0 10px 20px;
+                }
+                
+                #quiz ol li {
+                   margin: 0 0 20px 0;
+                }
+                
+                #quiz ol li div {
+                   padding: 4px 0;
+                }
+                #quiz ol li label {
+                    padding: 4px 0;
+                 }
+                #quiz .options-row{
+                    width: 65%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                #quiz .options-row label{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+ 
+                
+                #quiz h3 {
+                   font-size: 17px; margin: 0 0 1px 0; color: #666;
+                }
+                
+                #results {
+                    font: 44px Georgia, Serif;
+                }
+
+
+
+
+
+
             
 
 

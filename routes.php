@@ -23,7 +23,13 @@ $router->get('contact', 'App/Controllers/ContactController.php@index');
 $router->get('leaderboard', 'App/Controllers/LeaderboardController.php@index');
 
 
+
+$router->get('climate', 'App/Controllers/ClimateController.php@index');
+
+
+
 $router->get('quiz', 'App/Controllers/QuizController.php@index');
+$router->get('quizresult', 'App/Controllers/QuizresultController.php@index');
 
 $router->get('admin', 'App/Controllers/AdminController.php@index');
 

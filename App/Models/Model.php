@@ -39,7 +39,7 @@ class Model
         }
 
         $sql = "SELECT " . $fields . " FROM " . self::$model . " WHERE deleted IS NULL" . (!empty(self::$limit) ? " LIMIT " . self::$limit : "");
-
+        
         return MySql::query($sql)->fetchAll(PDO::FETCH_CLASS);
     }
 

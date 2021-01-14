@@ -37,7 +37,7 @@ const scrollView = () => {
 
 
     const scroll = Math.max( bodyLength, pageLength);
-    const bg = document.querySelector(".bg-container")
+    const bg = document.querySelector(".bg-container");
     
 
     bg.style.height = scroll + "px" ;
