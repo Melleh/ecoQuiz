@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Libraries\View;
 
-class QuizresultController {
+class ResultController {
 
     public function index()
     {
-        return View::render('quizresult.view');
+        return View::render('result.view');
     }
 }
