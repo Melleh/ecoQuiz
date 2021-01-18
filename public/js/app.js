@@ -33,7 +33,7 @@ const scrollView = () => {
     const page = document.querySelector(".page-container");
     const nav  = document.querySelector(".navBar");
     const bodyLength = body.scrollHeight;
-    const pageLength = page.scrollHeight + nav.scrollHeight;
+    const pageLength = page.scrollHeight + nav.scrollHeight + 55;
 
 
     const scroll = Math.max( bodyLength, pageLength);

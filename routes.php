@@ -29,7 +29,8 @@ $router->get('climate', 'App/Controllers/ClimateController.php@index');
 
 
 $router->get('quiz', 'App/Controllers/QuizController.php@index');
-$router->get('quizresult', 'App/Controllers/QuizresultController.php@index');
+$router->get('result', 'App/Controllers/ResultController.php@index');
+$router->post('result', 'App/Controllers/ResultController.php');
 
 $router->get('admin', 'App/Controllers/AdminController.php@index');
 
