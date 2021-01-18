@@ -69,7 +69,7 @@
                 <label class="img-checkbox">
                     <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C">
                     <img src="https://images.unsplash.com/photo-1610008726270-9efea6e3da33?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1333&q=80">
-                    <h4>Temperate <br> Grassland</h4>
+                    <h4>Temperate/Grassland</h4>
                 </label>
 
                 <label class="img-checkbox">

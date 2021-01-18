@@ -41,22 +41,7 @@
 
 
 
-            // $values = [
-            //     1,
-            //     2,
-            //     3,
-            //     22
-            // ];
-
-
-            // function max_value($values){
-            //     $max = 0;
-            //     foreach($values as v) {
-            //         if($v > $max) $max = $v;
-            //     }
-            //     return $max
-            // }
-
+        
             
 
             
