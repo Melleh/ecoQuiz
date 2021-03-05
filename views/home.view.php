@@ -1,3 +1,4 @@
+</div>
 <div class="home-page">
     <header>
         <br>

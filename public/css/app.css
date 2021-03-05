@@ -96,7 +96,7 @@ header.contact-header p {
 }
 
 
-
+                                            /* Navbar section */
 nav * {
     font-family: 'Montserrat', sans-serif; 
     padding: 0;
@@ -223,104 +223,6 @@ nav * {
                 }
 
 
-
-
-                #quiz img {
-                    height: 200px;
-                    width: 200px;
-                    object-fit: cover;
-                }
-                /* HIDE RADIO */
-                .img-checkbox [type=radio] { 
-                    position: absolute;
-                    opacity: 0;
-                    width: 0;
-                    height: 0;
-                }
-                
-                /* IMAGE STYLES */
-                .img-checkbox [type=radio] + img {
-                    transition: transform 0.2s ease;  
-                    cursor: pointer;
-                    box-shadow: 1px 1px 1px 1px black;
-                    border-radius: 20px;
-                }
-                
-                .img-checkbox [type=radio]:hover + img {
-                    transform: translateY(-3px);
-                    filter: brightness(1.3);
-
-                }
-                /* CHECKED STYLES */
-                .img-checkbox [type=radio]:checked + img {
-
-                    border: 3px solid rgb(218, 59, 59);
-                    
-                   
-
-                    
-                    
-                }
-                
-
-
-
-
-
-
-                #quiz input {
-                    vertical-align: middle;
-                }
-                
-                #quiz ol {
-                   margin: 0 0 10px 20px;
-                }
-                
-                #quiz ol li {
-                   margin: 0 0 20px 0;
-                }
-                
-                #quiz ol li div {
-                   padding: 4px 0;
-                }
-                #quiz ol li label {
-                    padding: 4px 0;
-                 }
-                #quiz .options-row{
-                    width: 70%;
-                    display: flex;
-                    margin-left: 300px;
-                    flex-wrap: nowrap;
-                    justify-content: space-between;
-                }
-
-                #quiz .options-row label{
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                }
-
- 
-                
-                #quiz h3 {
-                   font-size: 17px; margin: 0 0 1px 0; color: #666;
-                }
-                
-                #results {
-                    font: 44px Georgia, Serif;
-                }
-
-
-
-
-
-
-            
-
-
-
-
-
 @media screen and (max-width:864px){
     .nav-links{
         margin-top: 15px;
@@ -369,4 +271,81 @@ nav * {
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px, -6px);   
+}
+                                                    /* End of navbar section */
+
+
+#quiz img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+/* HIDE RADIO */
+.img-checkbox [type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+.img-checkbox [type=radio] + img {
+    transition: transform 0.2s ease;  
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 20px;
+}
+
+.img-checkbox [type=radio]:hover + img {
+    transform: translateY(-3px);
+    filter: brightness(1.3);
+
+}
+/* CHECKED STYLES */
+.img-checkbox [type=radio]:checked + img {
+
+    border: 3px solid rgb(218, 59, 59);
+}
+
+
+#quiz input {
+    vertical-align: middle;
+}
+
+#quiz ol {
+   margin: 0 0 10px 20px;
+}
+
+#quiz ol li {
+   margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+   padding: 4px 0;
+}
+#quiz ol li label {
+    padding: 4px 0;
+ }
+#quiz .options-row{
+    width: 70%;
+    display: flex;
+    margin-left: 300px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#quiz .options-row label{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#quiz h3 {
+   font-size: 17px; margin: 0 0 1px 0; color: #666;
+}
+
+#results {
+    font: 44px Georgia, Serif;
 }
